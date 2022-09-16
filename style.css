@@ -14,13 +14,50 @@ ul {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    padding: 0px 200px 50px 200px;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-title {
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-info {
+    width: 500px;
+}
+
+.hero-paragraph {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.sign-up {
+    width: 100px;
+    height: 25px;
+    background-color: #3882f6;
+    border: 0px;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #E5E7EB;
+}
+
+.image {
+    display: flex;
+    width: 450px;
+    height: 220px;
+    background-color: #F9FAF8;
+    flex-shrink: 0;
 }
 
 .right {
@@ -30,6 +67,17 @@ a {
 
 .left {
     font-weight: bold;
+    padding: 0;
+}
+
+.header,
+.hero {
+    padding-bottom: 100px;
+    margin-left: auto;
+}
+
+.top {
+    margin-left: auto;
 }
 
 .section-1,
@@ -39,10 +87,4 @@ a {
 
 .section-3 {
     background-color: #e5e7eb;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
