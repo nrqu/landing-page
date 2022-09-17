@@ -29,9 +29,9 @@ a {
 .hero {
     display: flex;
     flex: 1;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+
 }
 
 .hero-info {
