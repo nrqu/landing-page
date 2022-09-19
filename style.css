@@ -96,3 +96,29 @@ a {
     background-color: #3882f6;
     color: #FAFAF8;
 }
+
+#section-2 {
+    padding: 40px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-image {
+    border-radius: 5px;
+    background-color: purple;
+    border: #3882f6;
+    width: 200px;
+    height: 200px;
+}
+
+.images-list {
+    display: flex;
+    justify-content: space-around;
+}
